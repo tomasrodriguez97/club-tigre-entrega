@@ -182,6 +182,7 @@
     font-family: 'Arvo', serif;
     font-family: 'Joan', serif;
 
+
 }
 
 .nav {
@@ -193,7 +194,9 @@
     background-color: #b11331;
     font-family: 'Arvo', serif;
     font-family: 'Joan', serif;
-
+ background-color: blue;
+    transform: scaleX(150%);
+    background: linear-gradient(90deg, #1326b16d 6%, #c9164a6d 27%, #1007866d 86%);
 
 }
 

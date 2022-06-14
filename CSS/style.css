@@ -206,8 +206,8 @@
 
 .nav li:hover {
     background-color: blue;
-    transform: scale(110%);
-    background: linear-gradient(90deg, rgba(19, 38, 177, 0.4290091036414566) 6%, rgba(201, 22, 74, 0.4290091036414566) 27%, rgba(16, 8, 134, 0.4290091036414566) 86%);
+    transform: scaleX(150%);
+    background: linear-gradient(90deg, #1326b16d 6%, #c9164a6d 27%, #1007866d 86%);
 
 
 

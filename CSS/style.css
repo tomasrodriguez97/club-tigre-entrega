@@ -34,13 +34,14 @@
 
 
 .inline {
+display:grid;
 
     background-color: darkgoldenrod;
     border: solid 3px black;
     margin: 20px;
     padding: 15px;
     width: 271px;
-    height: 378px;
+    height: 440px;
 }
 
 .inline-block {
@@ -58,8 +59,8 @@
 
 
 .main {
-    display: grid;
-    grid-area: main;
+    display: flexbox;
+    /* grid-area: main; */
     background-color: #100886;
     border: solid black;
     color: white;
@@ -89,7 +90,9 @@
 
 .titularNoticia {
     display: inline-block;
-    margin-left: 35%;
+    margin-left: 37%;
+    color: white;
+    
 
 }
 
@@ -106,30 +109,28 @@
     background-color: #100886;
     background-image: url(https://i.pinimg.com/originals/db/15/5e/db155e9a49acbadb52de0ed7bf1d8ede.png);
     color: black;
-    padding-top: 30px;
     font-size: 20px;
     font-style: oblique;
     margin-bottom: 0px;
     /* background: linear-gradient(90deg, #b113316d 33%, #861b086d 35%, #1008866d 84%, #1008866d 90%); */
 }
 
-.header nav ul {
+/* /* .header nav ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     height: 220px;
     justify-content: space-evenly;
     font-family: 'Arvo', serif;
-    font-family: 'Joan', serif;
+    font-family: 'Joan', serif; */
 
-}
+/* } */
 
-.header nav a:hover {
+ .header nav a:hover { 
     background-color: blue;
-    transform: scale(130%);
+    transform: scale(130%); 
 
-
-}
+} 
 
 
 
@@ -137,15 +138,17 @@
     left: -244px;
     bottom: -321px;
 }
-
+/* 
 .header h1 {
     color: white;
-}
+} */
 
-.header nav ul a {
+/* .header nav ul a {
     color: white;
+} */
+.bg-primary{
+    margin-top: 0px;
 }
-
 .footer {
     height: 200px;
     grid-area: footer;
@@ -156,6 +159,7 @@
 
 .footer i {
     font-size: 4rem;
+    margin-bottom: 0px;
 }
 
 .imagenHinchada {

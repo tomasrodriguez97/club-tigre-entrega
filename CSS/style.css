@@ -226,27 +226,29 @@ nav ul a {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .grilla {
         grid-template-areas:
             "nav nav nav"
-            "header header header  "
-            "footer footer footer";
+            "header header  "
+            "header footer";
 
     }
 
-    .nav {
-        flex-direction: row;
+    .container-fluid{
+        display: grid;
     }
 
     .nav ul {
         display: flex;
+        flex-direction: column;
     }
 
     .main {
         flex-direction: column;
     }
-
+max-width: 320px;
+max-height: 205px;
 }
 
 .main img {

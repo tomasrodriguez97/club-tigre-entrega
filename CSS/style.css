@@ -230,8 +230,8 @@ nav ul a {
     .grilla {
         grid-template-areas:
             "nav nav nav"
-            "header header  "
-            "header footer";
+            "header header header "
+            "header footer footer";
 
     }
 
@@ -247,9 +247,12 @@ nav ul a {
     .main {
         flex-direction: column;
     }
-max-width: 320px;
+}
+.body {
+    max-width: 320px;
 max-height: 205px;
 }
+
 
 .main img {
     width: 228px;

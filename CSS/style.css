@@ -3,18 +3,7 @@
     padding: 0;
 }
 
-.body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "header header header"
-        "nav main main"
-        "footer footer footer";
-    background-color: #0a0958;
 
-}
 
 .block {
     background-color: red;
@@ -58,35 +47,9 @@
 
 
 
-.main {
-    display: flexbox;
-    /* grid-area: main; */
-    background-color: #100886;
-    border: solid black;
-    color: white;
-
-}
-
-.main img {
-    width: 800px;
-}
-
-.main div p {
-    padding-top: 20px;
-}
-
-.main section {
-    padding-top: 20px;
-}
-
-.logo img {
-    max-width: px;
-    position: relative;
-    margin-left: 0%;
-    border: double red;
 
 
-}
+
 
 .titularNoticia {
     display: inline-block;
@@ -104,16 +67,7 @@
 }
 
 
-.header {
-    grid-area: header;
-    background-color: #100886;
-    background-image: url(https://i.pinimg.com/originals/db/15/5e/db155e9a49acbadb52de0ed7bf1d8ede.png);
-    color: black;
-    font-size: 20px;
-    font-style: oblique;
-    margin-bottom: 0px;
-    /* background: linear-gradient(90deg, #b113316d 33%, #861b086d 35%, #1008866d 84%, #1008866d 90%); */
-}
+
 
 /* /* .header nav ul {
     display: flex;
@@ -126,18 +80,7 @@
 
 /* } */
 
-.header nav a:hover {
-    background-color: blue;
-    transform: scale(130%);
 
-}
-
-
-
-.header img {
-    left: -244px;
-    bottom: -321px;
-}
 
 /* 
 .header h1 {
@@ -151,18 +94,6 @@
     margin-top: 0px;
 }
 
-.footer {
-    height: 200px;
-    grid-area: footer;
-    background-color: #0a0958;
-
-
-}
-
-.footer i {
-    font-size: 4rem;
-    margin-bottom: 0px;
-}
 
 .imagenHinchada {
     margin-left: 75%;
@@ -191,40 +122,9 @@
 
 }
 
-.nav {
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid;
-    background-color: #b11331;
-    font-family: 'Arvo', serif;
-    font-family: 'Joan', serif;
-    background-color: blue;
-    transform: scaleX(150%);
-    background: linear-gradient(90deg, #1326b16d 6%, #c9164a6d 27%, #1007866d 86%);
-
-}
-
-.nav li {
-    list-style: none;
-    padding: 20px;
-    height: 30px;
-
-}
-
-.nav li:hover {
-    background-color: blue;
-    transform: scaleX(150%);
-    background: linear-gradient(90deg, #1326b16d 6%, #c9164a6d 27%, #1007866d 86%);
 
 
 
-}
-
-nav ul a {
-    text-decoration: none;
-}
 
 
 
